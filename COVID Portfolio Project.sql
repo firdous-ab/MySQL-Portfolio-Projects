@@ -128,6 +128,7 @@ FROM #PercentPopulationVaccinated
 
 
 -- CREATING VIEW TO STOR DATA FOR LATER VISUALIZATIONS
+GO
 CREATE VIEW PercentPopulationVaccinated 
 AS
 SELECT cd.continent, cd.location, cd.date, cd.population, cv.new_vaccinations,
